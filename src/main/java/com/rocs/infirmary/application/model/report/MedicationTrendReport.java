@@ -1,7 +1,6 @@
 package com.rocs.infirmary.application.model.report;
 
 import java.util.Date;
-import java.util.List;
 
 public class MedicationTrendReport {
 

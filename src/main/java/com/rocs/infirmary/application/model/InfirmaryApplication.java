@@ -1,7 +1,6 @@
 package com.rocs.infirmary.application.model;
 
 import com.rocs.infirmary.application.MedicationTrendReportService;
-import com.rocs.infirmary.application.app.facade.reportMedicationTrend.impl.ReportMedicationTrendFacadeImpl;
 import com.rocs.infirmary.application.app.facade.reportMedicationTrend.reportMedicationTrendFacade;
 import com.rocs.infirmary.application.model.report.MedicationTrendReport;
 
