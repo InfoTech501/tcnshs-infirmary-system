@@ -1,15 +1,15 @@
 package com.rocs.medical.records.application.service.commonAilmentsReport;
 
-import com.rocs.medical.records.application.data.repository.commonAilmentsReport.CommonAilmentsReportRepository;
+import com.rocs.medical.records.application.data.facade.commonAilmentsReport.CommonAilmentsReportFacade;
 import com.rocs.medical.records.application.model.reports.CommonAilmentsReport;
 
 import java.util.Date;
 import java.util.List;
 
 public class CommonAilmentsReportService {
-    private final CommonAilmentsReportRepository repository;
+    private final CommonAilmentsReportFacade repository;
 
-    public CommonAilmentsReportService(CommonAilmentsReportRepository repository) {
+    public CommonAilmentsReportService(CommonAilmentsReportFacade repository) {
         this.repository = repository;
     }
 
