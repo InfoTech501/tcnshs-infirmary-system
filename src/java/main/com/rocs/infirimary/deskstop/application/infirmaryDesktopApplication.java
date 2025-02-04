@@ -53,7 +53,7 @@ public class infirmaryDesktopApplication {
                 String firstname = sc.nextLine();
                 System.out.println("Enter a lastname : ");
                 String lastname = sc.nextLine();
-
+// Initial Commit//
                 studentInfo = studentInfoFacade.searchStudentsbyFullName(firstname, lastname);
 
                 if (studentInfo != null) {
